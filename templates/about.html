@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css')}}">
+{% endblock %}
+
+{% block title %}
+About
+{% endblock %}
+
+{% block body %}
+<main class="py-3 mb-3">
+    <div class="container">
+      <div class="row">
+
+        <!-- POSTS -->
+        <div class="col-md-0">
+
+          <!-- Title -->
+          <h2>Adobe Inc.</h2>
+          <p>
+            <b>Adobe Inc.</b> is an American multinational computer software company. Incorporated in Delaware and headquartered in San Jose, California, it has historically specialized in software for the creation and publication of a wide range of content, including graphics, photography, illustration, animation, multimedia/video, motion pictures and print. The company has expanded into digital marketing management software. Adobe has millions of users worldwide. Flagship products include: Photoshop image editing software, Adobe Illustrator vector-based illustration software, Adobe Acrobat Reader and the Portable Document Format (PDF), plus a host of tools primarily for audio-visual content creation, editing and publishing.
+          </p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Adobe_Corporate_Logo.png/1200px-Adobe_Corporate_Logo.png" class="img-fluid float-right adobe" width="250" draggable="false" alt="Adobe">
+          <p>
+            The company began by leading in the desktop publishing revolution of the mid-eighties, went on to lead in animation and multi-media through its acquisition of Macromedia, from which it acquired animation technology Adobe Flash, Developed inDesign and subsequently gained a leadership position in publishing over Quark and PageMaker, developed video editing and compositing technology in Premiere, pioneered low-code web development with Muse, and emerged with a suite of solutions for marketing management. Adobe offered a bundled solution of its products named Adobe Creative Suite, which evolved into a SaaS subscription offering <b>Adobe Creative Cloud</b>.
+          </p>
+          <h4>Adobe Creative Cloud</h4>
+          <p>
+            <b>Adobe Creative Cloud</b> is a set of applications and services from Adobe Inc. that gives subscribers access to a collection of software used for graphic design, video editing, web development, photography, along with a set of mobile applications and also some optional cloud services. In Creative Cloud, a monthly or annual subscription service is delivered over the Internet. Software from Creative Cloud is downloaded from the Internet, installed directly on a local computer and used as long as the subscription remains valid. Online updates and multiple languages are included in the CC subscription. Creative Cloud was initially hosted on Amazon Web Services, but a new agreement with Microsoft has the software, beginning with the 2017 version, hosted on Microsoft Azure.
+          </p>
+          <h4>Current applications and services</h4>
+          <p>
+            The <b>Adobe Creative Cloud</b> retains many of the features of Adobe Creative Suite and introduces new features; foremost is the instant availability of upgrades, saving to the cloud, and easier sharing. In June 2014, the company announced 14 new versions of the Creative Cloud essential desktop tools, four new mobile apps, and the availability of creative hardware for enterprise, education and photography customers.
+          </p>
+          <center>
+          <h6>Examples of programs from adobe:</h6>
+          <img src="https://res.cloudinary.com/dmh8bbwem/image/upload/v1624179828/adobe%D0%9F%D1%80%D0%BE%D0%B4_rsfsl4.png"  width="650" draggable="false" alt="Adobeprod">
+          </center>
+          
+        </div>
+        <!-- /col-md-9 -->
+
+        <!-- /blog-aside -->
+
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </main>
+{% endblock %}

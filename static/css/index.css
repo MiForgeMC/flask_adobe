@@ -1,0 +1,79 @@
+ol.carousel-indicators li.active {
+    background-color: rgba(45, 146, 204, 1);
+  }
+  ol.carousel-indicators li {
+    background-color: rgba(45, 146, 204, 0.6);
+  }
+  .carousel a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(70%);
+  }
+  @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,600|Roboto:300,400,700');
+  
+  header, footer {
+    background-color: #595959;
+  }
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .nav-link, .dropdown-item {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  nav li {
+    padding: 0 30px;
+  }
+  nav li.active, nav li.active:before {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  footer i {
+    color: #fff;
+    padding: 0 12px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+  a.btn, button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .logo2 {
+    padding: 5px;
+  }
+  .logo {
+    padding: 5px;
+  }
+  .blur {
+    filter: blur(2px);
+    transition: 0.3s;
+  }
+  .blur:hover {
+    filter: blur(0px);
+  }
+  .red {
+    color: #ff3838;
+  }
+  #home{
+    user-select:none;
+  }
+  #adobe1 {
+    user-select:none;
+  }
+  
+  
+  
+  
